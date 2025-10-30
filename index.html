@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>마음 챙김 - 부처님 명언</title>
+    <meta name="description" content="매일 새로운 부처님 명언으로 마음을 챙기세요">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>마음 챙김</h1>
+            <p class="subtitle">부처님 명언과 현대적 해석</p>
+            <div class="header-controls">
+                <button id="dark-mode-toggle" class="icon-btn" aria-label="다크모드 전환">
+                    <span class="sun">☀️</span>
+                    <span class="moon">🌙</span>
+                </button>
+            </div>
+        </header>
+
+        <nav class="tabs">
+            <button class="tab-btn active" data-tab="today">오늘의 명언</button>
+            <button class="tab-btn" data-tab="browse">둘러보기</button>
+            <button class="tab-btn" data-tab="favorites">즐겨찾기</button>
+        </nav>
+
+        <!-- 오늘의 명언 -->
+        <div id="today-tab" class="tab-content active">
+            <div class="quote-card featured">
+                <div class="quote-number">명언 <span id="today-number"></span>/100</div>
+                <div class="quote-original" id="today-original"></div>
+                <div class="quote-modern" id="today-modern"></div>
+                <div class="quote-source" id="today-source"></div>
+                <div class="quote-actions">
+                    <button class="btn-favorite" id="today-favorite" aria-label="즐겨찾기">
+                        <span class="heart">🤍</span>
+                    </button>
+                    <button class="btn-random" id="random-btn">다른 명언 보기</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- 둘러보기 -->
+        <div id="browse-tab" class="tab-content">
+            <div class="filter-bar">
+                <label for="category-filter">카테고리:</label>
+                <select id="category-filter">
+                    <option value="all">전체</option>
+                </select>
+                <input type="search" id="search-box" placeholder="검색...">
+            </div>
+            <div id="quotes-list" class="quotes-list"></div>
+        </div>
+
+        <!-- 즐겨찾기 -->
+        <div id="favorites-tab" class="tab-content">
+            <div id="favorites-list" class="quotes-list"></div>
+            <div id="favorites-empty" class="empty-state">
+                <p>아직 즐겨찾기한 명언이 없습니다.</p>
+                <p>마음에 드는 명언을 ❤️ 버튼으로 저장해보세요.</p>
+            </div>
+        </div>
+
+        <footer>
+            <p>출처: 법구경(Dhammapada) - Bhikkhu Sujato 영문 번역 (CC0)</p>
+            <p>SuttaCentral.net의 공개 데이터를 기반으로 현대적으로 재해석했습니다</p>
+        </footer>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

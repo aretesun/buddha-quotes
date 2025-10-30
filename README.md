@@ -1,0 +1,168 @@
+# 마음 챙김 - 부처님 명언 웹앱
+
+법구경(Dhammapada)의 100가지 명언을 현대적으로 재해석한 마음 챙김 웹 애플리케이션입니다.
+
+## 특징
+
+- **오늘의 명언**: 매일 바뀌는 명언으로 하루를 시작하세요
+- **둘러보기**: 100개의 명언을 카테고리별로 탐색하고 검색할 수 있습니다
+- **즐겨찾기**: 마음에 드는 명언을 저장하세요
+- **다크모드**: 눈이 편안한 다크 테마 지원
+- **반응형 디자인**: 모바일, 태블릿, 데스크톱 모두 지원
+- **오프라인 지원**: 인터넷 없이도 사용 가능
+
+## 출처 및 저작권
+
+- **원문**: 법구경(Dhammapada) - 팔리어 경전
+- **영문 번역**: Bhikkhu Sujato (CC0 라이선스)
+- **데이터 출처**: SuttaCentral.net (https://suttacentral.net)
+- **현대적 해석**: 이 프로젝트에서 작성
+
+## 법적 고지
+
+이 웹앱에 사용된 법구경 영문 번역은 SuttaCentral의 CC0 (퍼블릭 도메인) 라이선스 데이터를 기반으로 합니다.
+현대적 한국어 해석은 원문의 의미를 훼손하지 않는 범위에서 재작성되었습니다.
+
+상업적 사용을 원하시는 경우, 현대적 해석 부분에 대한 별도의 검토가 필요할 수 있습니다.
+
+## 사용 방법
+
+### 로컬에서 실행하기
+
+1. 이 폴더의 `index.html` 파일을 브라우저에서 열기
+
+또는
+
+2. 간단한 웹 서버 실행:
+
+```bash
+# Python 3
+python -m http.server 8000
+
+# 또는 Node.js가 설치되어 있다면
+npx serve
+```
+
+그 다음 브라우저에서 `http://localhost:8000` 접속
+
+### 무료 배포하기
+
+다음 플랫폼 중 하나를 선택하여 무료로 배포할 수 있습니다:
+
+#### 1. GitHub Pages (추천)
+```bash
+# GitHub 저장소 생성 후
+git init
+git add .
+git commit -m "Initial commit"
+git branch -M main
+git remote add origin https://github.com/your-username/buddha-quotes.git
+git push -u origin main
+
+# Settings > Pages에서 배포 활성화
+```
+
+#### 2. Vercel
+- https://vercel.com 에서 무료 계정 생성
+- "New Project" > 이 폴더 업로드
+- 자동으로 배포됨
+
+#### 3. Netlify
+- https://netlify.com 에서 무료 계정 생성
+- "Add new site" > "Deploy manually"
+- 이 폴더를 드래그 앤 드롭
+
+## 프로젝트 구조
+
+```
+buddha-quotes-app/
+├── index.html          # 메인 HTML 파일
+├── style.css           # 스타일시트
+├── app.js             # JavaScript 로직
+├── data/
+│   └── quotes.json    # 100개의 명언 데이터
+└── README.md          # 이 파일
+```
+
+## 기능 설명
+
+### 오늘의 명언
+- 날짜 기반으로 매일 다른 명언이 표시됩니다
+- "다른 명언 보기" 버튼으로 랜덤 명언을 볼 수 있습니다
+
+### 둘러보기
+- 카테고리별 필터링 (마음, 행복, 지혜 등)
+- 검색 기능으로 원하는 내용을 찾을 수 있습니다
+- 전체 100개 명언 탐색
+
+### 즐겨찾기
+- ❤️ 버튼으로 명언 저장
+- 로컬 스토리지에 저장되어 브라우저를 닫아도 유지됩니다
+
+### 다크모드
+- 우측 상단 ☀️/🌙 버튼으로 테마 전환
+- 설정이 저장되어 다음 방문 시에도 유지됩니다
+
+## 커스터마이징
+
+### 색상 변경
+`style.css`의 `:root` 섹션에서 색상을 변경할 수 있습니다:
+
+```css
+:root {
+    --accent: #8b7355;  /* 강조 색상 */
+    --accent-light: #a08968;  /* 강조 색상 (밝음) */
+}
+```
+
+### 명언 추가
+`data/quotes.json` 파일에 새로운 명언을 추가할 수 있습니다:
+
+```json
+{
+  "id": 101,
+  "reference": "dhp000",
+  "chapter": "장 이름",
+  "original": "영어 원문",
+  "modernInterpretation": "현대적 해석",
+  "theme": "주제",
+  "source": "출처",
+  "category": "카테고리"
+}
+```
+
+## 기술 스택
+
+- **순수 HTML, CSS, JavaScript** - 프레임워크 없음
+- **로컬 스토리지** - 즐겨찾기 및 설정 저장
+- **반응형 CSS** - 모든 기기 지원
+- **다크모드** - CSS 변수 활용
+
+## 브라우저 지원
+
+- Chrome (최신)
+- Firefox (최신)
+- Safari (최신)
+- Edge (최신)
+
+## 라이선스
+
+- 영문 번역: CC0 (Public Domain) - SuttaCentral
+- 현대적 해석: 이 프로젝트에서 작성
+- 코드: MIT License
+
+## 기여
+
+개선 사항이나 버그를 발견하시면 이슈를 등록해주세요!
+
+## 향후 개발 계획
+
+- [ ] PWA (Progressive Web App) 지원
+- [ ] 명언 공유 기능
+- [ ] 알림 기능 (매일 특정 시간에 명언 알림)
+- [ ] 더 많은 언어 지원
+- [ ] 명상 타이머 추가
+
+---
+
+**마음을 챙기며 하루를 시작하세요** 🙏

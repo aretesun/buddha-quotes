@@ -1,0 +1,1002 @@
+[
+  {
+    "id": 1,
+    "reference": "dhp1",
+    "chapter": "Pairs",
+    "original": "Intention shapes experiences; intention is first, they're made by intention. If with corrupt intent you speak or act, suffering follows you, like a wheel, the ox's foot.",
+    "modernInterpretation": "우리의 의도가 경험을 만듭니다. 부정적인 의도로 말하거나 행동하면, 그로 인한 고통이 우리를 따라다닙니다. 직장에서의 악의적인 말, SNS에서의 험담, 이 모든 것이 결국 우리 자신에게 돌아옵니다.",
+    "theme": "intention",
+    "source": "Dhammapada 1",
+    "category": "mind"
+  },
+  {
+    "id": 2,
+    "reference": "dhp2",
+    "chapter": "Pairs",
+    "original": "Intention shapes experiences; intention is first, they're made by intention. If with pure intent you speak or act, happiness follows you like a shadow that never leaves.",
+    "modernInterpretation": "선한 의도로 행동하면 행복이 그림자처럼 따라옵니다. 진심 어린 칭찬, 도움을 주려는 마음, 이런 작은 선행들이 쌓여 우리의 삶을 행복하게 만듭니다.",
+    "theme": "intention",
+    "source": "Dhammapada 2",
+    "category": "happiness"
+  },
+  {
+    "id": 3,
+    "reference": "dhp5",
+    "chapter": "Pairs",
+    "original": "For never is hatred laid to rest by hate, it's laid to rest by love: this is an ancient teaching.",
+    "modernInterpretation": "증오는 증오로 해결되지 않습니다. 오직 사랑으로만 증오를 멈출 수 있습니다. SNS 논쟁, 직장 갈등, 가족 간 불화 - 맞받아치는 것이 아니라 이해하려 노력할 때 평화가 찾아옵니다.",
+    "theme": "love",
+    "source": "Dhammapada 5",
+    "category": "relationships"
+  },
+  {
+    "id": 4,
+    "reference": "dhp21",
+    "chapter": "Heedfulness",
+    "original": "Heedfulness is the path to the deathless. Heedlessness is the path to death. The heedful do not die. The heedless are like the dead already.",
+    "modernInterpretation": "깨어있는 삶이 진정한 삶입니다. 멍하니 하루하루를 보내는 것은 살아있되 죽은 것과 같습니다. 지금 이 순간에 집중하고, 의식적으로 선택하며 살아가세요.",
+    "theme": "mindfulness",
+    "source": "Dhammapada 21",
+    "category": "awareness"
+  },
+  {
+    "id": 5,
+    "reference": "dhp24",
+    "chapter": "Heedfulness",
+    "original": "They who are energetic, mindful, pure in deed, considerate, restrained, living by principle, and heedful: their reputation grows.",
+    "modernInterpretation": "성실하고, 신중하며, 원칙을 지키며 사는 사람의 명성은 자연스럽게 쌓입니다. 브랜딩이나 마케팅이 아니라, 일관된 행동이 진정한 평판을 만듭니다.",
+    "theme": "discipline",
+    "source": "Dhammapada 24",
+    "category": "character"
+  },
+  {
+    "id": 6,
+    "reference": "dhp33",
+    "chapter": "Mind",
+    "original": "The flickering, fickle mind, hard to guard, hard to control—the wise straighten it, like a fletcher straightens an arrow.",
+    "modernInterpretation": "산만하고 통제하기 어려운 마음을 다스리는 것은 쉽지 않습니다. 스마트폰 알림, 끝없는 유혹 속에서 집중력을 유지하려면 끊임없는 연습이 필요합니다.",
+    "theme": "mind-control",
+    "source": "Dhammapada 33",
+    "category": "mind"
+  },
+  {
+    "id": 7,
+    "reference": "dhp35",
+    "chapter": "Mind",
+    "original": "Hard to see is the mind, so subtle, wandering where it will. The wise protect it, for a guarded mind brings happiness.",
+    "modernInterpretation": "마음은 눈에 보이지 않지만 우리 삶의 질을 결정합니다. 부정적인 생각에 빠지지 않도록, 걱정과 불안을 다스리도록 마음을 보호하세요.",
+    "theme": "mental-health",
+    "source": "Dhammapada 35",
+    "category": "mind"
+  },
+  {
+    "id": 8,
+    "reference": "dhp42",
+    "chapter": "Mind",
+    "original": "What an enemy or foe might do to you is nothing compared to what your own wrongly directed mind might do to you.",
+    "modernInterpretation": "타인이 입히는 상처보다 자기 자신의 부정적인 생각이 더 큰 해를 끼칩니다. 자기비하, 과도한 걱정, 비교와 질투 - 이런 생각들이 진짜 적입니다.",
+    "theme": "self-sabotage",
+    "source": "Dhammapada 42",
+    "category": "mind"
+  },
+  {
+    "id": 9,
+    "reference": "dhp43",
+    "chapter": "Mind",
+    "original": "What mother or father or relative might do for you is nothing compared to what your own rightly directed mind might do for you.",
+    "modernInterpretation": "올바른 마음가짐은 어떤 외부의 도움보다 강력합니다. 긍정적 사고, 성장 마인드셋, 감사하는 마음 - 이것들이 당신을 성공으로 이끕니다.",
+    "theme": "mindset",
+    "source": "Dhammapada 43",
+    "category": "mind"
+  },
+  {
+    "id": 10,
+    "reference": "dhp47",
+    "chapter": "Flowers",
+    "original": "Death takes away one who gathers flowers, their mind caught up in them, like a mighty flood, a sleeping village.",
+    "modernInterpretation": "표면적인 것들(돈, 명예, 외모)에만 집착하다 보면 정작 중요한 것을 놓칩니다. 물질적 성공에만 몰두하다 인생의 의미를 잃지 마세요.",
+    "theme": "materialism",
+    "source": "Dhammapada 47",
+    "category": "values"
+  },
+  {
+    "id": 11,
+    "reference": "dhp50",
+    "chapter": "Flowers",
+    "original": "You should not look to others' faults, nor what they've done or not done. Rather you should look at what you yourself have done and not done.",
+    "modernInterpretation": "타인의 잘못을 지적하기보다 자신을 돌아보세요. SNS에서 남을 비판하기 전에, 나는 어떻게 살고 있는지 먼저 점검해야 합니다.",
+    "theme": "self-reflection",
+    "source": "Dhammapada 50",
+    "category": "wisdom"
+  },
+  {
+    "id": 12,
+    "reference": "dhp60",
+    "chapter": "Fools",
+    "original": "Long is the night for the wakeful. Long is the journey for the weary. Long is transmigration for the foolish who don't know the true teaching.",
+    "modernInterpretation": "방향을 잃고 헤매는 삶은 길고 고됩니다. 명확한 목표와 가치관 없이 사는 것은 끝없는 방황입니다. 자신만의 원칙을 세우세요.",
+    "theme": "purpose",
+    "source": "Dhammapada 60",
+    "category": "wisdom"
+  },
+  {
+    "id": 13,
+    "reference": "dhp62",
+    "chapter": "Fools",
+    "original": "A fool thinks their own advantage is their enemy. Doing bad deeds, they reap the bitter fruit.",
+    "modernInterpretation": "단기적 이익만 추구하면 결국 손해를 봅니다. 부정직한 방법으로 얻은 성공, 타인을 밟고 오른 자리 - 이것들은 언젠가 무너집니다.",
+    "theme": "integrity",
+    "source": "Dhammapada 62",
+    "category": "ethics"
+  },
+  {
+    "id": 14,
+    "reference": "dhp76",
+    "chapter": "The Wise",
+    "original": "If you see an intelligent person who speaks of faults, who reproves, follow them as you would a guide to hidden treasure. It is better, not worse, to stay close to such a person.",
+    "modernInterpretation": "당신의 잘못을 지적해주는 현명한 사람을 소중히 여기세요. 듣기 좋은 말만 하는 사람보다, 쓴소리를 해주는 멘토가 진짜 보물입니다.",
+    "theme": "mentorship",
+    "source": "Dhammapada 76",
+    "category": "relationships"
+  },
+  {
+    "id": 15,
+    "reference": "dhp80",
+    "chapter": "The Wise",
+    "original": "Just as a deep lake is clear and still, so too, upon hearing the teachings, the wise become clear.",
+    "modernInterpretation": "진정한 지혜는 고요함에서 나옵니다. 끊임없는 정보의 홍수 속에서, 때로는 멈추고 깊이 생각하는 시간이 필요합니다.",
+    "theme": "contemplation",
+    "source": "Dhammapada 80",
+    "category": "wisdom"
+  },
+  {
+    "id": 16,
+    "reference": "dhp103",
+    "chapter": "Thousands",
+    "original": "Better than a thousand hollow verses is a single meaningful verse that calms you when you hear it.",
+    "modernInterpretation": "양보다 질입니다. 수많은 자기계발서를 읽는 것보다, 하나의 진실한 가르침을 실천하는 것이 더 가치 있습니다.",
+    "theme": "quality",
+    "source": "Dhammapada 103",
+    "category": "wisdom"
+  },
+  {
+    "id": 17,
+    "reference": "dhp106",
+    "chapter": "Thousands",
+    "original": "Month after month one might offer a thousand sacrifices, costing a hundred thousand—yet if one honors a single person of developed mind, even for a moment, that honor is better than a hundred years of sacrifice.",
+    "modernInterpretation": "값비싼 기부나 화려한 행사보다, 진심으로 존경하고 배우려는 자세가 더 중요합니다. 작지만 진실된 행동이 큰 가치를 만듭니다.",
+    "theme": "sincerity",
+    "source": "Dhammapada 106",
+    "category": "values"
+  },
+  {
+    "id": 18,
+    "reference": "dhp129",
+    "chapter": "Violence",
+    "original": "All tremble at violence; all fear death. Treating others like yourself, neither kill nor incite others to kill.",
+    "modernInterpretation": "모두가 두려움을 느낍니다. 타인의 고통을 내 것처럼 느낄 때, 진정한 공감이 시작됩니다. 폭력은 물리적인 것만이 아니라 말과 행동의 폭력도 포함합니다.",
+    "theme": "empathy",
+    "source": "Dhammapada 129",
+    "category": "compassion"
+  },
+  {
+    "id": 19,
+    "reference": "dhp146",
+    "chapter": "Old Age",
+    "original": "Why the laughter, why the jubilation, when the world's on fire? Shrouded in darkness, why not look for a lamp?",
+    "modernInterpretation": "세상에 문제가 가득한데 왜 무관심하게 살아가나요? 기후 위기, 불평등, 고통받는 이웃 - 깨어있는 삶을 살아야 합니다.",
+    "theme": "awareness",
+    "source": "Dhammapada 146",
+    "category": "social-responsibility"
+  },
+  {
+    "id": 20,
+    "reference": "dhp157",
+    "chapter": "Self",
+    "original": "If you'd take care of yourself, you'd take care of yourself well. For you are your own protector. For what other protector could there be?",
+    "modernInterpretation": "자기 자신을 돌보는 것은 이기적인 게 아닙니다. 내가 건강해야 타인을 도울 수 있습니다. 번아웃되지 않도록 자기관리를 우선순위에 두세요.",
+    "theme": "self-care",
+    "source": "Dhammapada 157",
+    "category": "wellness"
+  },
+  {
+    "id": 21,
+    "reference": "dhp160",
+    "chapter": "Self",
+    "original": "You are your own master. You make your own future. Therefore discipline yourself as a merchant does a fine horse.",
+    "modernInterpretation": "내 인생은 내가 만듭니다. 환경 탓, 운 탓만 하지 말고, 스스로를 훈련하고 단련하세요. 자기 훈련이 자유를 가져옵니다.",
+    "theme": "self-discipline",
+    "source": "Dhammapada 160",
+    "category": "character"
+  },
+  {
+    "id": 22,
+    "reference": "dhp165",
+    "chapter": "Self",
+    "original": "By oneself is evil done; by oneself is one defiled. By oneself is evil avoided; by oneself is one purified. Purity and impurity are up to oneself; no-one can purify another.",
+    "modernInterpretation": "변화는 자신에게서 시작됩니다. 누구도 나를 대신 변화시킬 수 없습니다. 자기계발서를 읽고, 강의를 듣는 것도 좋지만, 실천은 오직 나만이 할 수 있습니다.",
+    "theme": "personal-responsibility",
+    "source": "Dhammapada 165",
+    "category": "growth"
+  },
+  {
+    "id": 23,
+    "reference": "dhp183",
+    "chapter": "The Buddha",
+    "original": "Not to do any evil; to embrace the good; to purify one's mind: this is the instruction of the Buddhas.",
+    "modernInterpretation": "복잡해 보이지만 삶의 원칙은 단순합니다. 나쁜 일 하지 말고, 좋은 일 하고, 마음을 깨끗이 하세요. 이것이 행복의 핵심입니다.",
+    "theme": "simple-truth",
+    "source": "Dhammapada 183",
+    "category": "wisdom"
+  },
+  {
+    "id": 24,
+    "reference": "dhp197",
+    "chapter": "Happiness",
+    "original": "Ah, so happily we live, without enmity among the hostile. Among hostile people we live without enmity.",
+    "modernInterpretation": "적대적인 환경 속에서도 평화로울 수 있습니다. 독성 있는 직장, 힘든 관계 속에서도 내 마음의 평화는 스스로 지킬 수 있습니다.",
+    "theme": "inner-peace",
+    "source": "Dhammapada 197",
+    "category": "peace"
+  },
+  {
+    "id": 25,
+    "reference": "dhp201",
+    "chapter": "Happiness",
+    "original": "Victory gives rise to enmity; the defeated sleep badly. The peaceful sleep at ease, having left victory and defeat behind.",
+    "modernInterpretation": "승부에 집착하면 평화를 잃습니다. 항상 이겨야 한다는 강박, 경쟁에서 뒤처질까 봐 불안해하기보다, 내 길을 묵묵히 가는 평온함을 선택하세요.",
+    "theme": "non-competition",
+    "source": "Dhammapada 201",
+    "category": "peace"
+  },
+  {
+    "id": 26,
+    "reference": "dhp223",
+    "chapter": "Anger",
+    "original": "Conquer anger with kindness, evil with good. Conquer the miser with generosity, and the liar with truth.",
+    "modernInterpretation": "분노에는 친절로, 악에는 선으로 대응하세요. 맞받아치는 것이 아니라, 더 높은 차원의 대응이 진정한 승리입니다.",
+    "theme": "non-reactivity",
+    "source": "Dhammapada 223",
+    "category": "wisdom"
+  },
+  {
+    "id": 27,
+    "reference": "dhp231",
+    "chapter": "Anger",
+    "original": "Beware of anger in body: be restrained in body. Giving up bad bodily conduct, conduct yourself well in body.",
+    "modernInterpretation": "화가 날 때 말이나 행동으로 표출하기 전에 멈추세요. 충동적인 이메일, 순간의 폭언 - 이런 것들이 관계를 망치고 후회를 남깁니다.",
+    "theme": "impulse-control",
+    "source": "Dhammapada 231",
+    "category": "emotional-intelligence"
+  },
+  {
+    "id": 28,
+    "reference": "dhp252",
+    "chapter": "Stains",
+    "original": "It's easy to see the faults of others, but hard to see your own. You broadcast the faults of others like winnowing chaff in the wind, but conceal your own like a cheat hides a bad hand.",
+    "modernInterpretation": "타인의 단점은 쉽게 보이지만 내 잘못은 보지 못합니다. SNS에서 남을 비판하기 전에, 내가 완벽한지 먼저 돌아보세요.",
+    "theme": "hypocrisy",
+    "source": "Dhammapada 252",
+    "category": "self-awareness"
+  },
+  {
+    "id": 29,
+    "reference": "dhp276",
+    "chapter": "The Path",
+    "original": "You yourselves must strive; the Buddhas just point the way. Those who meditate and enter the path are freed from Māra's bonds.",
+    "modernInterpretation": "아무도 당신을 대신 구원할 수 없습니다. 조언을 듣고, 책을 읽어도 결국 실천은 당신의 몫입니다. 당신의 삶은 당신이 만듭니다.",
+    "theme": "self-effort",
+    "source": "Dhammapada 276",
+    "category": "growth"
+  },
+  {
+    "id": 30,
+    "reference": "dhp277",
+    "chapter": "The Path",
+    "original": "All conditions are impermanent—when this is seen with understanding, one grows disillusioned with suffering. This is the path to purity.",
+    "modernInterpretation": "모든 것은 변합니다. 좋은 일도, 나쁜 일도 영원하지 않습니다. 이 진리를 받아들이면 집착과 고통에서 벗어날 수 있습니다.",
+    "theme": "impermanence",
+    "source": "Dhammapada 277",
+    "category": "wisdom"
+  },
+  {
+    "id": 31,
+    "reference": "dhp278",
+    "chapter": "The Path",
+    "original": "All conditions are suffering—when this is seen with understanding, one grows disillusioned with suffering. This is the path to purity.",
+    "modernInterpretation": "고통은 삶의 일부입니다. 완벽한 행복만 추구하다 보면 더 불행해집니다. 고통을 인정하고 받아들일 때 진정한 평화를 찾을 수 있습니다.",
+    "theme": "acceptance",
+    "source": "Dhammapada 278",
+    "category": "wisdom"
+  },
+  {
+    "id": 32,
+    "reference": "dhp279",
+    "chapter": "The Path",
+    "original": "All things are not-self—when this is seen with understanding, one grows disillusioned with suffering. This is the path to purity.",
+    "modernInterpretation": "집착하는 '나'는 환상입니다. 직함, 재산, 외모에 정체성을 두지 마세요. 그것들은 변하고 사라질 수 있습니다. 진정한 나는 그보다 훨씬 큽니다.",
+    "theme": "non-self",
+    "source": "Dhammapada 279",
+    "category": "wisdom"
+  },
+  {
+    "id": 33,
+    "reference": "dhp290",
+    "chapter": "The Just",
+    "original": "If by giving up a little happiness you'd find abundant happiness, a wise person would give up the little to see the abundant.",
+    "modernInterpretation": "단기적 쾌락을 희생해야 장기적 행복을 얻습니다. 지금 당장의 편안함을 포기하고 운동하고, 공부하고, 성장해야 더 큰 성취를 이룰 수 있습니다.",
+    "theme": "delayed-gratification",
+    "source": "Dhammapada 290",
+    "category": "discipline"
+  },
+  {
+    "id": 34,
+    "reference": "dhp296",
+    "chapter": "The Just",
+    "original": "Not by silence does one become a sage if one is confused and ignorant. But one who, as if weighing on a scale, takes only the good and rejects evil, is a sage.",
+    "modernInterpretation": "침묵이 지혜는 아닙니다. 선과 악을 분별하고, 좋은 것을 선택하는 것이 진정한 지혜입니다. 무작정 따르지 말고 스스로 판단하세요.",
+    "theme": "discernment",
+    "source": "Dhammapada 296",
+    "category": "wisdom"
+  },
+  {
+    "id": 35,
+    "reference": "dhp183_repeat",
+    "chapter": "The Buddha",
+    "original": "Patient acceptance is the ultimate fervent austerity. Extinguishment is the ultimate, say the Buddhas.",
+    "modernInterpretation": "인내와 수용이 최고의 수행입니다. 모든 것을 통제하려 하지 말고, 때로는 받아들이는 지혜가 필요합니다.",
+    "theme": "patience",
+    "source": "Dhammapada 184",
+    "category": "virtue"
+  },
+  {
+    "id": 36,
+    "reference": "dhp199",
+    "chapter": "Happiness",
+    "original": "Ah, so happily we live, healthy among the sick. Among those who are sick, we live healthy.",
+    "modernInterpretation": "건강은 가장 큰 축복입니다. 아플 때만 그 소중함을 깨닫습니다. 지금 건강하다면 감사하고, 그것을 유지하기 위해 노력하세요.",
+    "theme": "health",
+    "source": "Dhammapada 199",
+    "category": "gratitude"
+  },
+  {
+    "id": 37,
+    "reference": "dhp202",
+    "chapter": "Happiness",
+    "original": "There is no fire like desire, no offense like hate, no suffering like the aggregates, no ease beyond peace.",
+    "modernInterpretation": "끝없는 욕망이 우리를 태웁니다. 더 많은 돈, 더 높은 지위, 더 나은 외모 - 이런 욕망들이 만족을 멀리합니다. 평온함 속에서 진정한 행복을 찾으세요.",
+    "theme": "desire",
+    "source": "Dhammapada 202",
+    "category": "peace"
+  },
+  {
+    "id": 38,
+    "reference": "dhp204",
+    "chapter": "Happiness",
+    "original": "Health is the best gain, contentment the best wealth, trust the best kinship, extinguishment the ultimate ease.",
+    "modernInterpretation": "건강, 만족, 신뢰 - 이것들이 진짜 부입니다. 은행 잔고보다 소중한 것들을 놓치지 마세요.",
+    "theme": "true-wealth",
+    "source": "Dhammapada 204",
+    "category": "values"
+  },
+  {
+    "id": 39,
+    "reference": "dhp209",
+    "chapter": "Dear Ones",
+    "original": "Applying themselves to what they love, and not doing what they should, abandoning the goal for the pleasant: they envy those who accomplish their goal.",
+    "modernInterpretation": "재미있는 것만 하고 해야 할 일을 미루면 결국 후회합니다. 유혹을 이기고 목표를 향해 나아가는 사람을 부러워만 하지 말고, 당신도 그렇게 되세요.",
+    "theme": "procrastination",
+    "source": "Dhammapada 209",
+    "category": "discipline"
+  },
+  {
+    "id": 40,
+    "reference": "dhp212",
+    "chapter": "Dear Ones",
+    "original": "From love is born sorrow, from love is born fear. For one free of love there is no sorrow—whence fear?",
+    "modernInterpretation": "사랑하는 것에는 두려움이 따릅니다. 잃을까 봐, 상처받을까 봐 두렵습니다. 하지만 그 두려움 때문에 사랑하지 않는다면 진정한 삶을 살 수 없습니다.",
+    "theme": "attachment",
+    "source": "Dhammapada 212",
+    "category": "relationships"
+  },
+  {
+    "id": 41,
+    "reference": "dhp218",
+    "chapter": "Dear Ones",
+    "original": "Having generated enthusiasm for the ineffable, their mind not bound to sensual pleasures, they're said to be heading upstream.",
+    "modernInterpretation": "세속적 쾌락을 넘어선 더 높은 목표를 추구하세요. 물질적 성공만이 아니라, 의미 있는 삶, 타인에게 도움이 되는 삶을 살아가세요.",
+    "theme": "higher-purpose",
+    "source": "Dhammapada 218",
+    "category": "purpose"
+  },
+  {
+    "id": 42,
+    "reference": "dhp222",
+    "chapter": "Anger",
+    "original": "One who swallows anger—like a bitter herb—when it has arisen: that mendicant is said to have left this shore for the far shore.",
+    "modernInterpretation": "분노를 삼키는 것은 쓰지만, 그것이 당신을 성숙하게 만듭니다. 화를 참는 것은 약한 게 아니라 강한 것입니다.",
+    "theme": "anger-management",
+    "source": "Dhammapada 222",
+    "category": "emotional-intelligence"
+  },
+  {
+    "id": 43,
+    "reference": "dhp224",
+    "chapter": "Anger",
+    "original": "Speak truth, don't get angry; when asked, give even from a little. By these three means you become one with the gods.",
+    "modernInterpretation": "진실을 말하고, 화내지 않고, 나눌 수 있는 것을 나누세요. 이 세 가지만 실천해도 당신은 훌륭한 사람입니다.",
+    "theme": "three-virtues",
+    "source": "Dhammapada 224",
+    "category": "virtue"
+  },
+  {
+    "id": 44,
+    "reference": "dhp232",
+    "chapter": "Anger",
+    "original": "Beware of anger in speech: be restrained in speech. Giving up bad verbal conduct, conduct yourself well in speech.",
+    "modernInterpretation": "말의 폭력을 조심하세요. 한 번 뱉은 말은 주워 담을 수 없습니다. 화난 상태에서 이메일 보내지 마세요. 문자 보내지 마세요.",
+    "theme": "speech-control",
+    "source": "Dhammapada 232",
+    "category": "communication"
+  },
+  {
+    "id": 45,
+    "reference": "dhp233",
+    "chapter": "Anger",
+    "original": "Beware of anger in mind: be restrained in mind. Giving up bad mental conduct, conduct yourself well in mind.",
+    "modernInterpretation": "생각의 폭력도 조심하세요. 타인을 향한 악의적 생각, 복수 상상 - 이런 것들이 당신의 마음을 병들게 합니다.",
+    "theme": "mental-conduct",
+    "source": "Dhammapada 233",
+    "category": "mind"
+  },
+  {
+    "id": 46,
+    "reference": "dhp239",
+    "chapter": "Stains",
+    "original": "Little by little, a little at a time, a wise person should remove their own stain, as a smith removes dross from silver.",
+    "modernInterpretation": "완벽해지려고 서두르지 마세요. 조금씩, 천천히, 나쁜 습관을 고쳐가세요. 작은 진전도 진전입니다.",
+    "theme": "gradual-progress",
+    "source": "Dhammapada 239",
+    "category": "growth"
+  },
+  {
+    "id": 47,
+    "reference": "dhp241",
+    "chapter": "Stains",
+    "original": "Easy to do are things that are bad and harmful to oneself. But so very hard to do is that which is good and beneficial.",
+    "modernInterpretation": "나쁜 습관은 쉽고, 좋은 습관은 어렵습니다. 유튜브 보기는 쉽고, 운동은 어렵습니다. 그래도 해야 합니다.",
+    "theme": "difficulty-of-good",
+    "source": "Dhammapada 241",
+    "category": "discipline"
+  },
+  {
+    "id": 48,
+    "reference": "dhp256",
+    "chapter": "The Just",
+    "original": "Not by passing judgment on others does one become just. But one who weighs up both what is true and false, judges others only after consideration—judicious, equitable, and astute—that wise one is said to be just.",
+    "modernInterpretation": "성급한 판단을 하지 마세요. SNS에서 본 한 장면으로 누군가를 비난하기 전에, 전체 맥락을 이해하려 노력하세요.",
+    "theme": "fair-judgment",
+    "source": "Dhammapada 256",
+    "category": "wisdom"
+  },
+  {
+    "id": 49,
+    "reference": "dhp268",
+    "chapter": "The Just",
+    "original": "Not by mere silence does one become a sage if one is confused and ignorant. But one who, taking up the scales, takes what is good and leaves the bad is thereby a sage.",
+    "modernInterpretation": "말없이 있는다고 지혜로운 게 아닙니다. 옳고 그름을 분별하고 선택하는 것이 진정한 지혜입니다.",
+    "theme": "active-wisdom",
+    "source": "Dhammapada 268",
+    "category": "wisdom"
+  },
+  {
+    "id": 50,
+    "reference": "dhp285",
+    "chapter": "Craving",
+    "original": "Fetters of lust grow all around one who lives intent on seeing pleasure, seeking delight. They make their own chains strong.",
+    "modernInterpretation": "쾌락에만 집중하면 중독됩니다. 도파민 중독 - 소셜미디어, 게임, 쇼핑 - 이것들이 당신을 사슬에 묶습니다.",
+    "theme": "addiction",
+    "source": "Dhammapada 285",
+    "category": "freedom"
+  },
+  {
+    "id": 51,
+    "reference": "dhp326",
+    "chapter": "Elephants",
+    "original": "I shall endure abuse as an elephant in battle endures an arrow. Many people have bad morals.",
+    "modernInterpretation": "비난과 비판을 받아들이는 힘을 기르세요. 누구나 비판받습니다. 중요한 것은 그것에 어떻게 반응하느냐입니다.",
+    "theme": "resilience",
+    "source": "Dhammapada 326",
+    "category": "strength"
+  },
+  {
+    "id": 52,
+    "reference": "dhp327",
+    "chapter": "Elephants",
+    "original": "They take a tamed beast to the crowd; when the king climbs on a tamed beast. Best of men are the tamed, who patiently endure abuse.",
+    "modernInterpretation": "자기 자신을 다스릴 줄 아는 사람이 가장 강한 사람입니다. 감정에 휘둘리지 않고, 충동을 억제할 수 있는 사람이 진정한 리더입니다.",
+    "theme": "self-mastery",
+    "source": "Dhammapada 327",
+    "category": "leadership"
+  },
+  {
+    "id": 53,
+    "reference": "dhp334",
+    "chapter": "Craving",
+    "original": "When craving, a person's companion, wanders on and on for a long time, in this life and the next, they don't escape suffering.",
+    "modernInterpretation": "끝없는 욕망이 고통의 원인입니다. 하나를 얻으면 또 다른 것을 원합니다. 이 사이클을 끊어야 평화를 찾을 수 있습니다.",
+    "theme": "endless-craving",
+    "source": "Dhammapada 334",
+    "category": "suffering"
+  },
+  {
+    "id": 54,
+    "reference": "dhp338",
+    "chapter": "Craving",
+    "original": "But if one has given up craving—so hard to get over, so hard to give up in the world—sorrows fall from them like a drop of water from a lotus-leaf.",
+    "modernInterpretation": "욕망을 내려놓는 것은 어렵지만, 그것이 자유를 가져옵니다. 남과 비교하지 말고, 가진 것에 감사하세요.",
+    "theme": "letting-go",
+    "source": "Dhammapada 338",
+    "category": "freedom"
+  },
+  {
+    "id": 55,
+    "reference": "dhp360",
+    "chapter": "Mendicants",
+    "original": "Good is restraint of the eye; good is restraint of the ear; good is restraint of the nose; good is restraint of the tongue.",
+    "modernInterpretation": "감각을 조절하세요. 보고 싶은 대로 다 보고, 듣고 싶은 대로 다 들으면 마음이 혼란스러워집니다. 선택적으로 받아들이세요.",
+    "theme": "sense-restraint",
+    "source": "Dhammapada 360",
+    "category": "mindfulness"
+  },
+  {
+    "id": 56,
+    "reference": "dhp62_related",
+    "chapter": "Fools",
+    "original": "Though a fool lives with a wise person their whole life, they still don't understand the teaching, like a spoon the taste of soup.",
+    "modernInterpretation": "가까이 있어도 배우지 않으면 소용없습니다. 멘토가 있어도, 좋은 환경에 있어도, 본인이 배우려 하지 않으면 성장할 수 없습니다.",
+    "theme": "receptivity",
+    "source": "Dhammapada 64",
+    "category": "learning"
+  },
+  {
+    "id": 57,
+    "reference": "dhp65",
+    "chapter": "Fools",
+    "original": "An intelligent person who lives with a wise person even for a moment quickly understands the teaching, like the tongue the taste of soup.",
+    "modernInterpretation": "배울 준비가 된 사람은 짧은 순간에도 많은 것을 배웁니다. 열린 마음으로 배우려는 자세가 중요합니다.",
+    "theme": "readiness",
+    "source": "Dhammapada 65",
+    "category": "learning"
+  },
+  {
+    "id": 58,
+    "reference": "dhp71",
+    "chapter": "Fools",
+    "original": "For so long as a bad deed has not ripened, a fool thinks it is like honey. But when the bad deed ripens, the fool undergoes suffering.",
+    "modernInterpretation": "나쁜 행동의 결과는 즉시 나타나지 않습니다. 하지만 언젠가는 반드시 그 대가를 치르게 됩니다. 지름길은 없습니다.",
+    "theme": "consequences",
+    "source": "Dhammapada 71",
+    "category": "karma"
+  },
+  {
+    "id": 59,
+    "reference": "dhp82",
+    "chapter": "The Wise",
+    "original": "Just as a deep ocean is unclouded and still, so too, on hearing the teachings, a wise person becomes clear and still.",
+    "modernInterpretation": "진정한 지혜는 고요함에서 옵니다. 소란스러운 세상에서 내면의 평화를 유지하는 것이 지혜의 시작입니다.",
+    "theme": "stillness",
+    "source": "Dhammapada 82",
+    "category": "wisdom"
+  },
+  {
+    "id": 60,
+    "reference": "dhp129_related",
+    "chapter": "Violence",
+    "original": "All tremble at the rod, all fear death. Treating others like yourself, neither kill nor incite to kill.",
+    "modernInterpretation": "모두가 두려움과 고통을 피하고 싶어합니다. 타인을 대할 때 이것을 기억하세요. 공감이 모든 관계의 시작입니다.",
+    "theme": "golden-rule",
+    "source": "Dhammapada 130",
+    "category": "compassion"
+  },
+  {
+    "id": 61,
+    "reference": "dhp131",
+    "chapter": "Violence",
+    "original": "All tremble at violence; life is dear to all. Treating others like yourself, neither kill nor incite to kill.",
+    "modernInterpretation": "생명은 누구에게나 소중합니다. 인간뿐만 아니라 모든 생명을 존중하세요.",
+    "theme": "reverence-for-life",
+    "source": "Dhammapada 131",
+    "category": "compassion"
+  },
+  {
+    "id": 62,
+    "reference": "dhp136",
+    "chapter": "Violence",
+    "original": "Some are born in a womb; evildoers in hell; the virtuous go to heaven; the stainless become extinguished.",
+    "modernInterpretation": "우리의 행동이 미래를 결정합니다. 매일의 선택이 쌓여 인생의 방향을 만듭니다.",
+    "theme": "action-results",
+    "source": "Dhammapada 136",
+    "category": "karma"
+  },
+  {
+    "id": 63,
+    "reference": "dhp147",
+    "chapter": "Old Age",
+    "original": "Look at this beautified image, a mass of sores propped up, diseased, which has many thoughts, but no permanence or stability.",
+    "modernInterpretation": "외모에 집착하지 마세요. 아름다움은 시간이 지나면 사라집니다. 내면의 아름다움을 가꾸세요.",
+    "theme": "beauty-fades",
+    "source": "Dhammapada 147",
+    "category": "impermanence"
+  },
+  {
+    "id": 64,
+    "reference": "dhp148",
+    "chapter": "Old Age",
+    "original": "This body is worn out—a nest of diseases, fragile. This putrid mass falls apart; for life ends in death.",
+    "modernInterpretation": "몸은 언젠가 늙고 병들고 죽습니다. 이 진실을 받아들일 때, 지금 이 순간을 더 소중히 여기게 됩니다.",
+    "theme": "mortality",
+    "source": "Dhammapada 148",
+    "category": "impermanence"
+  },
+  {
+    "id": 65,
+    "reference": "dhp153",
+    "chapter": "Self",
+    "original": "For many lifetimes, I have wandered looking for the builder of this house but haven't found them. Suffering is to be reborn again and again.",
+    "modernInterpretation": "문제의 근원을 찾지 못하면 같은 고통이 반복됩니다. 증상만 치료하지 말고, 근본 원인을 해결하세요.",
+    "theme": "root-cause",
+    "source": "Dhammapada 153",
+    "category": "wisdom"
+  },
+  {
+    "id": 66,
+    "reference": "dhp158",
+    "chapter": "Self",
+    "original": "First you'd establish yourself in what is proper; only then should you instruct another. A wise person would not be corrupted.",
+    "modernInterpretation": "남을 가르치기 전에 먼저 자신이 모범을 보이세요. 말이 아니라 행동으로 가르치세요.",
+    "theme": "lead-by-example",
+    "source": "Dhammapada 158",
+    "category": "leadership"
+  },
+  {
+    "id": 67,
+    "reference": "dhp166",
+    "chapter": "Self",
+    "original": "Don't neglect your own good for that of another, no matter how great. Knowing well what's good for you, be intent upon your true goal.",
+    "modernInterpretation": "타인을 돕는 것도 중요하지만, 자신을 희생해서는 안 됩니다. 균형을 찾으세요. 당신도 소중합니다.",
+    "theme": "self-priority",
+    "source": "Dhammapada 166",
+    "category": "self-care"
+  },
+  {
+    "id": 68,
+    "reference": "dhp167",
+    "chapter": "The World",
+    "original": "Don't follow a lowly path; don't live carelessly. Don't follow wrong views; don't perpetuate the world.",
+    "modernInterpretation": "쉬운 길이 항상 옳은 길은 아닙니다. 대다수가 가는 길이 항상 옳은 것도 아닙니다. 자신의 가치관을 지키세요.",
+    "theme": "independent-path",
+    "source": "Dhammapada 167",
+    "category": "integrity"
+  },
+  {
+    "id": 69,
+    "reference": "dhp170",
+    "chapter": "The World",
+    "original": "See the world as a bubble, see it as a mirage. One who regards the world thus is not seen by the King of Death.",
+    "modernInterpretation": "세상의 화려함은 거품과 같습니다. 유명세, 부, 권력 - 이 모든 것이 순간적입니다. 집착하지 마세요.",
+    "theme": "illusion",
+    "source": "Dhammapada 170",
+    "category": "wisdom"
+  },
+  {
+    "id": 70,
+    "reference": "dhp173",
+    "chapter": "The World",
+    "original": "One who has done bad previously, but then shrouds it with what is good, illuminates this world like the moon freed from a cloud.",
+    "modernInterpretation": "과거의 잘못을 지금의 선행으로 덮을 수 있습니다. 과거에 얽매이지 말고, 지금부터 다르게 살면 됩니다.",
+    "theme": "redemption",
+    "source": "Dhammapada 173",
+    "category": "growth"
+  },
+  {
+    "id": 71,
+    "reference": "dhp178",
+    "chapter": "The Buddha",
+    "original": "Better than sole sovereignty over the earth, or going to heaven, or lordship over all the worlds, is the fruit of stream-entry.",
+    "modernInterpretation": "세속적 성공보다 영적 깨달음이 더 가치 있습니다. 물질적 부유함만이 성공은 아닙니다.",
+    "theme": "spiritual-priority",
+    "source": "Dhammapada 178",
+    "category": "values"
+  },
+  {
+    "id": 72,
+    "reference": "dhp179",
+    "chapter": "The Buddha",
+    "original": "He whose victory may not be undone, whose victory no-one in this world can reach—by what track would you trace that Buddha of limitless range, the trackless?",
+    "modernInterpretation": "진정한 승리는 타인을 이기는 것이 아니라 자신을 이기는 것입니다. 내면의 평화를 얻는 것이 최고의 승리입니다.",
+    "theme": "inner-victory",
+    "source": "Dhammapada 179",
+    "category": "wisdom"
+  },
+  {
+    "id": 73,
+    "reference": "dhp185",
+    "chapter": "The Buddha",
+    "original": "Not speaking ill, not doing harm, restraint in the code of conduct, moderation in eating, staying in remote lodgings, commitment to the higher mind—this is the instruction of the Buddhas.",
+    "modernInterpretation": "단순하지만 실천하기 어려운 가르침들입니다. 말 조심, 해치지 말기, 절제, 명상 - 이것들이 행복의 비결입니다.",
+    "theme": "simple-practice",
+    "source": "Dhammapada 185",
+    "category": "practice"
+  },
+  {
+    "id": 74,
+    "reference": "dhp205",
+    "chapter": "Happiness",
+    "original": "Hunger is the worst illness; conditions are the worst suffering. Knowing this as it is, extinguishment is the ultimate ease.",
+    "modernInterpretation": "기본적 욕구가 충족되지 않으면 다른 모든 것이 무의미합니다. 의식주가 해결되면 감사하세요.",
+    "theme": "basic-needs",
+    "source": "Dhammapada 205",
+    "category": "gratitude"
+  },
+  {
+    "id": 75,
+    "reference": "dhp207",
+    "chapter": "Dear Ones",
+    "original": "Don't mix with bad friends, nor with the worst of men. Mix with spiritual friends, and with the best of men.",
+    "modernInterpretation": "당신과 함께 시간을 보내는 사람이 당신의 미래를 결정합니다. 나쁜 영향을 주는 사람들과 거리를 두세요.",
+    "theme": "companionship",
+    "source": "Dhammapada 207",
+    "category": "relationships"
+  },
+  {
+    "id": 76,
+    "reference": "dhp238",
+    "chapter": "Stains",
+    "original": "Be like an island, which no flood can overflow. Be diligent and wise. After blowing away the dust of impurity, you will enter the divine realm of the noble ones.",
+    "modernInterpretation": "외부 환경에 흔들리지 않는 내면의 섬을 만드세요. 세상이 어떻게 변하든 중심을 잡을 수 있어야 합니다.",
+    "theme": "stability",
+    "source": "Dhammapada 238",
+    "category": "resilience"
+  },
+  {
+    "id": 77,
+    "reference": "dhp244",
+    "chapter": "Stains",
+    "original": "Living is easy for the shameless one, the crow-hero, the mischief-maker, the reckless and corrupt. But it's hard for one with a sense of conscience, always seeking purity, sincere and thoughtful, whose livelihood is pure, and whose insight is clear.",
+    "modernInterpretation": "뻔뻔하게 사는 것은 쉽습니다. 하지만 양심을 지키며 정직하게 사는 것은 어렵습니다. 어려운 길이 옳은 길입니다.",
+    "theme": "conscience",
+    "source": "Dhammapada 244",
+    "category": "integrity"
+  },
+  {
+    "id": 78,
+    "reference": "dhp281",
+    "chapter": "The Path",
+    "original": "Meditative absorption doesn't come to one without understanding, and understanding doesn't come to one without meditative absorption. One in whom is found both meditative absorption and understanding is indeed close to extinguishment.",
+    "modernInterpretation": "명상과 이해는 함께 가야 합니다. 생각만 하지 말고 실천하세요. 실천만 하지 말고 이해하려 노력하세요.",
+    "theme": "balance",
+    "source": "Dhammapada 281",
+    "category": "practice"
+  },
+  {
+    "id": 79,
+    "reference": "dhp291",
+    "chapter": "The Just",
+    "original": "From doing what they'd enjoy themselves, but which would harm others, they're caught in a tangle of enmity, and don't escape suffering.",
+    "modernInterpretation": "자신의 이익을 위해 타인을 해치면 결국 본인도 고통받습니다. 윈윈(win-win)을 추구하세요.",
+    "theme": "mutual-benefit",
+    "source": "Dhammapada 291",
+    "category": "ethics"
+  },
+  {
+    "id": 80,
+    "reference": "dhp292",
+    "chapter": "The Just",
+    "original": "When you miss what should be done, and do what should not be done, when you're negligent and insolent, your defilements only grow.",
+    "modernInterpretation": "해야 할 일은 미루고 하지 말아야 할 일만 하면, 삶이 엉망이 됩니다. 우선순위를 바로 세우세요.",
+    "theme": "priorities",
+    "source": "Dhammapada 292",
+    "category": "discipline"
+  },
+  {
+    "id": 81,
+    "reference": "dhp293",
+    "chapter": "The Just",
+    "original": "But when body is constantly and mindfully scrutinized, you don't do what should not be done, but always do what should be done. Mindful and aware, defilements come to an end.",
+    "modernInterpretation": "마음챙김으로 매 순간 자신을 관찰하세요. 나쁜 습관이 자동으로 나오기 전에 의식적으로 막을 수 있습니다.",
+    "theme": "mindful-living",
+    "source": "Dhammapada 293",
+    "category": "mindfulness"
+  },
+  {
+    "id": 82,
+    "reference": "dhp311",
+    "chapter": "Miscellaneous",
+    "original": "Speak not harshly to anyone, or they may reply to you in kind. For aggressive speech is painful, and retaliation may overtake you.",
+    "modernInterpretation": "거친 말은 거친 말을 낳습니다. 부드럽게 말하세요. 같은 말도 어떻게 하느냐에 따라 결과가 달라집니다.",
+    "theme": "gentle-speech",
+    "source": "Dhammapada 311",
+    "category": "communication"
+  },
+  {
+    "id": 83,
+    "reference": "dhp314",
+    "chapter": "Miscellaneous",
+    "original": "Some are born in a womb; evil-doers are reborn in hell; the good are reborn in heaven; those without defilements become fully extinguished.",
+    "modernInterpretation": "행동에는 결과가 따릅니다. 좋은 행동은 좋은 결과를, 나쁜 행동은 나쁜 결과를 낳습니다. 원인과 결과를 이해하세요.",
+    "theme": "cause-effect",
+    "source": "Dhammapada 314",
+    "category": "karma"
+  },
+  {
+    "id": 84,
+    "reference": "dhp315",
+    "chapter": "Miscellaneous",
+    "original": "You can't find that place in the sky, the ocean, or a cleft in the mountains, or any place in the world, where you can escape from a bad deed.",
+    "modernInterpretation": "잘못을 숨길 수 없습니다. 언젠가는 드러납니다. 처음부터 올바르게 행동하세요.",
+    "theme": "accountability",
+    "source": "Dhammapada 315",
+    "category": "ethics"
+  },
+  {
+    "id": 85,
+    "reference": "dhp348",
+    "chapter": "Craving",
+    "original": "Let go of the front, let go of the back, let go of the middle—gone beyond rebirth. With a mind freed in every respect, you shall come no more to birth and old age.",
+    "modernInterpretation": "과거에 대한 후회, 미래에 대한 불안, 현재에 대한 집착 - 이 모든 것을 내려놓으세요. 지금 여기에 존재하세요.",
+    "theme": "present-moment",
+    "source": "Dhammapada 348",
+    "category": "mindfulness"
+  },
+  {
+    "id": 86,
+    "reference": "dhp349",
+    "chapter": "Craving",
+    "original": "For a person disturbed by thinking, acute in greed, focusing on beauty, craving grows and grows. They make their chains strong indeed.",
+    "modernInterpretation": "아름다움에 집착하고, 더 많이 가지려는 욕망은 끝이 없습니다. SNS의 완벽한 이미지들, 광고의 유혹 - 이것들이 당신을 묶습니다.",
+    "theme": "craving-chains",
+    "source": "Dhammapada 349",
+    "category": "freedom"
+  },
+  {
+    "id": 87,
+    "reference": "dhp361",
+    "chapter": "Mendicants",
+    "original": "Good is restraint of body; good is restraint of speech; good is restraint of mind; good is restraint in everything. A mendicant restrained in everything is freed from all suffering.",
+    "modernInterpretation": "모든 면에서 절제하는 것이 자유를 가져옵니다. 충동적으로 행동하지 말고, 한 번 더 생각하세요.",
+    "theme": "total-restraint",
+    "source": "Dhammapada 361",
+    "category": "discipline"
+  },
+  {
+    "id": 88,
+    "reference": "dhp362",
+    "chapter": "Mendicants",
+    "original": "Restrained in hand, restrained in foot, restrained in speech and in their highest faculty; Happy inside, serene, solitary, content: they call them a mendicant.",
+    "modernInterpretation": "내면의 평화를 찾은 사람은 외부 조건에 흔들리지 않습니다. 진정한 만족은 내면에서 옵니다.",
+    "theme": "inner-contentment",
+    "source": "Dhammapada 362",
+    "category": "peace"
+  },
+  {
+    "id": 89,
+    "reference": "dhp370",
+    "chapter": "Mendicants",
+    "original": "A mendicant who lives indulging in negligence is unable to attain extinguishment, even if young and strong.",
+    "modernInterpretation": "젊고 건강해도 게으르면 아무것도 이루지 못합니다. 나이는 핑계가 될 수 없습니다.",
+    "theme": "no-excuses",
+    "source": "Dhammapada 370",
+    "category": "discipline"
+  },
+  {
+    "id": 90,
+    "reference": "dhp385",
+    "chapter": "Brahmins",
+    "original": "Cut the stream with vigor; dispel sensual pleasures, brahmin. Knowing the ending of conditions, you shall know the uncreated.",
+    "modernInterpretation": "욕망의 흐름을 끊으세요. 끊임없이 더 원하는 마음을 멈출 때 진정한 평화를 찾을 수 있습니다.",
+    "theme": "cutting-stream",
+    "source": "Dhammapada 385",
+    "category": "liberation"
+  },
+  {
+    "id": 91,
+    "reference": "dhp392",
+    "chapter": "Brahmins",
+    "original": "They've left behind both good and evil; sorrowless, dustless, pure: I call them a brahmin.",
+    "modernInterpretation": "선과 악을 넘어선 평온함. 옳고 그름에 집착하지 않고, 판단하지 않는 평화로운 마음 상태를 지향하세요.",
+    "theme": "beyond-duality",
+    "source": "Dhammapada 392",
+    "category": "wisdom"
+  },
+  {
+    "id": 92,
+    "reference": "dhp396",
+    "chapter": "Brahmins",
+    "original": "They don't grasp at this world or the next; with no need to grasp, released: I call them a brahmin.",
+    "modernInterpretation": "아무것도 붙잡지 않는 자유로움. 집착에서 벗어날 때 진정한 자유를 얻습니다.",
+    "theme": "non-grasping",
+    "source": "Dhammapada 396",
+    "category": "freedom"
+  },
+  {
+    "id": 93,
+    "reference": "dhp399",
+    "chapter": "Brahmins",
+    "original": "Undefiled among the defiled, virtuous among the violent; unattached among those who are attached: I call them a brahmin.",
+    "modernInterpretation": "주변 환경에 물들지 않는 강인함. 나쁜 환경 속에서도 자신의 원칙을 지킬 수 있어야 합니다.",
+    "theme": "uncorrupted",
+    "source": "Dhammapada 399",
+    "category": "integrity"
+  },
+  {
+    "id": 94,
+    "reference": "dhp403",
+    "chapter": "Brahmins",
+    "original": "They've discarded both ties, human and heavenly. Wandering without ties at all: I call them a brahmin.",
+    "modernInterpretation": "세속적 욕망뿐 아니라 영적 자만심까지도 내려놓으세요. 진정한 자유는 모든 집착에서 벗어나는 것입니다.",
+    "theme": "complete-freedom",
+    "source": "Dhammapada 403",
+    "category": "liberation"
+  },
+  {
+    "id": 95,
+    "reference": "dhp406",
+    "chapter": "Brahmins",
+    "original": "Not fierce, dutiful, without arrogance, tamed, bearing their final body: I call them a brahmin.",
+    "modernInterpretation": "온화하고, 책임감 있고, 겸손하며, 자제력 있는 사람 - 이것이 진정으로 성숙한 사람입니다.",
+    "theme": "maturity",
+    "source": "Dhammapada 406",
+    "category": "character"
+  },
+  {
+    "id": 96,
+    "reference": "dhp407",
+    "chapter": "Brahmins",
+    "original": "Like water from a lotus leaf, like a mustard seed off a pin-point: those who cling not to sensual pleasures—I call them a brahmin.",
+    "modernInterpretation": "연잎 위의 물방울처럼 집착하지 않는 삶. 경험하되 집착하지 않고, 즐기되 중독되지 않는 균형을 찾으세요.",
+    "theme": "light-touch",
+    "source": "Dhammapada 407",
+    "category": "detachment"
+  },
+  {
+    "id": 97,
+    "reference": "dhp412",
+    "chapter": "Brahmins",
+    "original": "Not hostile to hostile, pacific among the violent, unattached among those who are attached: I call them a brahmin.",
+    "modernInterpretation": "평화로운 사람은 전쟁터에서도 평화를 유지합니다. 외부 환경이 아니라 내면의 상태가 평화를 결정합니다.",
+    "theme": "peaceful-warrior",
+    "source": "Dhammapada 412",
+    "category": "peace"
+  },
+  {
+    "id": 98,
+    "reference": "dhp414",
+    "chapter": "Brahmins",
+    "original": "Who knows their past lives, and sees heaven and places of suffering, has attained the ending of rebirth, attained to the higher wisdom, the sage who has completed the task: I call them a brahmin.",
+    "modernInterpretation": "진정한 지혜는 자신의 과거를 이해하고, 미래를 보며, 현재의 고통을 끝낼 수 있는 것입니다. 자기 이해가 해방의 시작입니다.",
+    "theme": "complete-wisdom",
+    "source": "Dhammapada 414",
+    "category": "wisdom"
+  },
+  {
+    "id": 99,
+    "reference": "dhp420",
+    "chapter": "Brahmins",
+    "original": "For whom this world and the next don't exist, with no stress and no need to grasp: I call them a brahmin.",
+    "modernInterpretation": "이 세상에도 저 세상에도 집착하지 않는 자유로움. 현재에도, 미래에도 스트레스 없이 살 수 있는 평온함을 키우세요.",
+    "theme": "ultimate-freedom",
+    "source": "Dhammapada 420",
+    "category": "liberation"
+  },
+  {
+    "id": 100,
+    "reference": "dhp423",
+    "chapter": "Brahmins",
+    "original": "They've crossed over enmity, cut through ties; not intimidated, unattached, unshackled: I call them a brahmin.",
+    "modernInterpretation": "모든 적의를 넘어서고, 모든 속박을 끊고, 두려움 없이 자유롭게 사는 것 - 이것이 궁극적인 목표입니다. 이 여정을 시작하세요.",
+    "theme": "final-liberation",
+    "source": "Dhammapada 423",
+    "category": "liberation"
+  }
+]
