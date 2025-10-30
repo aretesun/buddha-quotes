@@ -2,6 +2,11 @@
 let quotes = [];
 let favorites = JSON.parse(localStorage.getItem('favorites')) || [];
 let currentTheme = localStorage.getItem('theme') || 'light';
+let currentBackgroundImage = null;
+
+// Unsplash API Configuration
+const UNSPLASH_ACCESS_KEY = 'YOUR_UNSPLASH_ACCESS_KEY'; // 사용자가 설정해야 함
+const UNSPLASH_API_URL = 'https://api.unsplash.com/photos/random';
 
 // Initialize
 document.addEventListener('DOMContentLoaded', init);
@@ -54,11 +59,207 @@ function setupEventListeners() {
         updateFavoriteButton(this, quoteId);
     });
 
+    // Today's share button
+    document.getElementById('today-share').addEventListener('click', function() {
+        const quoteId = parseInt(document.getElementById('today-favorite').dataset.quoteId);
+        shareQuoteAsImage(quoteId);
+    });
+
     // Category filter
     document.getElementById('category-filter').addEventListener('change', renderBrowseQuotes);
 
     // Search
     document.getElementById('search-box').addEventListener('input', renderBrowseQuotes);
+}
+
+// Unsplash API - Fetch Random Image
+async function fetchUnsplashImage(query = 'nature,zen,peaceful') {
+    // 데모용으로 Unsplash Source API 사용 (API 키 불필요)
+    // 프로덕션에서는 공식 API 사용 권장
+    const width = 1200;
+    const height = 630;
+    const imageUrl = `https://source.unsplash.com/${width}x${height}/?${query}`;
+    return imageUrl;
+}
+
+// Canvas - Generate Quote Image
+async function generateQuoteImage(quote, backgroundUrl) {
+    return new Promise(async (resolve, reject) => {
+        const canvas = document.createElement('canvas');
+        const ctx = canvas.getContext('2d');
+
+        // Set canvas size (1200x630 - optimal for social media)
+        canvas.width = 1200;
+        canvas.height = 630;
+
+        // Load background image
+        const bgImage = new Image();
+        bgImage.crossOrigin = 'anonymous';
+
+        bgImage.onload = function() {
+            // Draw background image
+            ctx.drawImage(bgImage, 0, 0, canvas.width, canvas.height);
+
+            // Add dark overlay for better text readability
+            ctx.fillStyle = 'rgba(0, 0, 0, 0.4)';
+            ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+            // Configure text
+            ctx.textAlign = 'center';
+            ctx.textBaseline = 'middle';
+            ctx.fillStyle = '#ffffff';
+
+            // Draw main quote
+            const maxWidth = canvas.width - 160;
+            const lineHeight = 50;
+            const x = canvas.width / 2;
+            let y = canvas.height / 2 - 60;
+
+            // Modern interpretation (main text)
+            ctx.font = 'bold 40px "Noto Sans KR", sans-serif';
+            const lines = wrapText(ctx, quote.modernInterpretation, maxWidth);
+
+            y = (canvas.height - (lines.length * lineHeight)) / 2 - 20;
+
+            lines.forEach(line => {
+                ctx.fillText(line, x, y);
+                y += lineHeight;
+            });
+
+            // Draw source (smaller text)
+            ctx.font = '24px "Noto Sans KR", sans-serif';
+            ctx.fillStyle = 'rgba(255, 255, 255, 0.8)';
+            ctx.fillText(`— ${quote.source}`, x, canvas.height - 80);
+
+            // Draw branding
+            ctx.font = '20px "Noto Sans KR", sans-serif';
+            ctx.fillStyle = 'rgba(255, 255, 255, 0.6)';
+            ctx.fillText('마음 챙김 - 부처님 명언', x, canvas.height - 40);
+
+            resolve(canvas);
+        };
+
+        bgImage.onerror = function() {
+            reject(new Error('Failed to load background image'));
+        };
+
+        bgImage.src = backgroundUrl;
+    });
+}
+
+// Wrap text for canvas
+function wrapText(ctx, text, maxWidth) {
+    const words = text.split(' ');
+    const lines = [];
+    let currentLine = '';
+
+    words.forEach(word => {
+        const testLine = currentLine + (currentLine ? ' ' : '') + word;
+        const metrics = ctx.measureText(testLine);
+
+        if (metrics.width > maxWidth && currentLine) {
+            lines.push(currentLine);
+            currentLine = word;
+        } else {
+            currentLine = testLine;
+        }
+    });
+
+    if (currentLine) {
+        lines.push(currentLine);
+    }
+
+    return lines;
+}
+
+// Download canvas as image
+function downloadCanvasAsImage(canvas, filename = 'buddha-quote.png') {
+    canvas.toBlob(function(blob) {
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.href = url;
+        a.download = filename;
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
+        URL.revokeObjectURL(url);
+    });
+}
+
+// Share Quote as Image
+async function shareQuoteAsImage(quoteId) {
+    const quote = quotes.find(q => q.id === quoteId);
+    if (!quote) return;
+
+    // Show loading state
+    showLoadingModal('이미지를 생성하는 중...');
+
+    try {
+        // Fetch background image
+        const backgroundUrl = await fetchUnsplashImage();
+
+        // Generate image
+        const canvas = await generateQuoteImage(quote, backgroundUrl);
+
+        // Hide loading
+        hideLoadingModal();
+
+        // Show preview modal
+        showShareModal(canvas, quote);
+    } catch (error) {
+        console.error('Failed to generate image:', error);
+        hideLoadingModal();
+        alert('이미지 생성에 실패했습니다. 다시 시도해주세요.');
+    }
+}
+
+// Show Loading Modal
+function showLoadingModal(message) {
+    const modal = document.getElementById('loading-modal');
+    const messageEl = document.getElementById('loading-message');
+    messageEl.textContent = message;
+    modal.style.display = 'flex';
+}
+
+function hideLoadingModal() {
+    const modal = document.getElementById('loading-modal');
+    modal.style.display = 'none';
+}
+
+// Show Share Modal
+function showShareModal(canvas, quote) {
+    const modal = document.getElementById('share-modal');
+    const preview = document.getElementById('share-preview');
+
+    // Clear previous preview
+    preview.innerHTML = '';
+
+    // Add canvas to preview
+    const img = document.createElement('img');
+    img.src = canvas.toDataURL();
+    img.style.maxWidth = '100%';
+    img.style.borderRadius = '8px';
+    preview.appendChild(img);
+
+    // Setup download button
+    const downloadBtn = document.getElementById('download-btn');
+    downloadBtn.onclick = () => {
+        downloadCanvasAsImage(canvas, `buddha-quote-${quote.id}.png`);
+    };
+
+    // Setup change background button
+    const changeBgBtn = document.getElementById('change-bg-btn');
+    changeBgBtn.onclick = async () => {
+        hideShareModal();
+        await shareQuoteAsImage(quote.id);
+    };
+
+    modal.style.display = 'flex';
+}
+
+function hideShareModal() {
+    const modal = document.getElementById('share-modal');
+    modal.style.display = 'none';
 }
 
 // Tab Switching
@@ -213,6 +414,9 @@ function createQuoteCard(quote, isCompact) {
             <button class="btn-favorite" data-quote-id="${quote.id}" aria-label="즐겨찾기">
                 <span class="heart">${favorites.includes(quote.id) ? '❤️' : '🤍'}</span>
             </button>
+            <button class="btn-share-mini" data-quote-id="${quote.id}" aria-label="이미지로 공유">
+                📤
+            </button>
         </div>
     `;
 
@@ -230,6 +434,15 @@ function createQuoteCard(quote, isCompact) {
             }
         }
     });
+
+    // Add share button listener
+    const shareBtn = card.querySelector('.btn-share-mini');
+    if (shareBtn) {
+        shareBtn.addEventListener('click', (e) => {
+            e.stopPropagation();
+            shareQuoteAsImage(quote.id);
+        });
+    }
 
     return card;
 }
