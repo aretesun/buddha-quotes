@@ -72,13 +72,14 @@ function setupEventListeners() {
     document.getElementById('search-box').addEventListener('input', renderBrowseQuotes);
 }
 
-// Unsplash API - Fetch Random Image
-async function fetchUnsplashImage(query = 'nature,zen,peaceful') {
-    // 데모용으로 Unsplash Source API 사용 (API 키 불필요)
-    // 프로덕션에서는 공식 API 사용 권장
+// Fetch Random Background Image
+async function fetchBackgroundImage() {
+    // Picsum Photos API 사용 (무료, CORS 지원)
+    // 매번 다른 이미지를 가져오기 위해 랜덤 ID 사용
+    const randomId = Math.floor(Math.random() * 1000);
     const width = 1200;
     const height = 630;
-    const imageUrl = `https://source.unsplash.com/${width}x${height}/?${query}`;
+    const imageUrl = `https://picsum.photos/id/${randomId}/${width}/${height}`;
     return imageUrl;
 }
 
@@ -92,78 +93,149 @@ async function generateQuoteImage(quote, backgroundUrl) {
         canvas.width = 1200;
         canvas.height = 630;
 
-        // Load background image
-        const bgImage = new Image();
-        bgImage.crossOrigin = 'anonymous';
+        try {
+            // Load background image
+            const bgImage = new Image();
+            bgImage.crossOrigin = 'anonymous';
 
-        bgImage.onload = function() {
-            // Draw background image
-            ctx.drawImage(bgImage, 0, 0, canvas.width, canvas.height);
+            bgImage.onload = function() {
+                try {
+                    // Draw background image
+                    ctx.drawImage(bgImage, 0, 0, canvas.width, canvas.height);
 
-            // Add dark overlay for better text readability
-            ctx.fillStyle = 'rgba(0, 0, 0, 0.4)';
-            ctx.fillRect(0, 0, canvas.width, canvas.height);
+                    // Add dark overlay for better text readability
+                    ctx.fillStyle = 'rgba(0, 0, 0, 0.5)';
+                    ctx.fillRect(0, 0, canvas.width, canvas.height);
 
-            // Configure text
-            ctx.textAlign = 'center';
-            ctx.textBaseline = 'middle';
-            ctx.fillStyle = '#ffffff';
+                    // Configure text
+                    ctx.textAlign = 'center';
+                    ctx.textBaseline = 'middle';
+                    ctx.fillStyle = '#ffffff';
 
-            // Draw main quote
-            const maxWidth = canvas.width - 160;
-            const lineHeight = 50;
-            const x = canvas.width / 2;
-            let y = canvas.height / 2 - 60;
+                    // Add text shadow for better readability
+                    ctx.shadowColor = 'rgba(0, 0, 0, 0.8)';
+                    ctx.shadowBlur = 10;
+                    ctx.shadowOffsetX = 2;
+                    ctx.shadowOffsetY = 2;
 
-            // Modern interpretation (main text)
-            ctx.font = 'bold 40px "Noto Sans KR", sans-serif';
-            const lines = wrapText(ctx, quote.modernInterpretation, maxWidth);
+                    // Draw main quote
+                    const maxWidth = canvas.width - 200;
+                    const lineHeight = 60;
+                    const x = canvas.width / 2;
 
-            y = (canvas.height - (lines.length * lineHeight)) / 2 - 20;
+                    // Modern interpretation (main text)
+                    ctx.font = 'bold 36px sans-serif';
+                    const lines = wrapText(ctx, quote.modernInterpretation, maxWidth);
 
-            lines.forEach(line => {
-                ctx.fillText(line, x, y);
-                y += lineHeight;
-            });
+                    let y = (canvas.height - (lines.length * lineHeight)) / 2;
 
-            // Draw source (smaller text)
-            ctx.font = '24px "Noto Sans KR", sans-serif';
-            ctx.fillStyle = 'rgba(255, 255, 255, 0.8)';
-            ctx.fillText(`— ${quote.source}`, x, canvas.height - 80);
+                    lines.forEach(line => {
+                        ctx.fillText(line, x, y);
+                        y += lineHeight;
+                    });
 
-            // Draw branding
-            ctx.font = '20px "Noto Sans KR", sans-serif';
-            ctx.fillStyle = 'rgba(255, 255, 255, 0.6)';
-            ctx.fillText('마음 챙김 - 부처님 명언', x, canvas.height - 40);
+                    // Draw source (smaller text)
+                    ctx.font = '20px sans-serif';
+                    ctx.fillStyle = 'rgba(255, 255, 255, 0.9)';
+                    ctx.fillText(`— ${quote.source}`, x, canvas.height - 100);
 
-            resolve(canvas);
-        };
+                    // Draw branding
+                    ctx.font = '18px sans-serif';
+                    ctx.fillStyle = 'rgba(255, 255, 255, 0.7)';
+                    ctx.shadowBlur = 5;
+                    ctx.fillText('마음 챙김 - 부처님 명언', x, canvas.height - 60);
 
-        bgImage.onerror = function() {
-            reject(new Error('Failed to load background image'));
-        };
+                    resolve(canvas);
+                } catch (error) {
+                    console.error('Canvas drawing error:', error);
+                    reject(error);
+                }
+            };
 
-        bgImage.src = backgroundUrl;
+            bgImage.onerror = function(error) {
+                console.error('Background image load error:', error);
+                // Fallback: create gradient background
+                createGradientBackground(canvas, ctx, quote).then(resolve).catch(reject);
+            };
+
+            bgImage.src = backgroundUrl;
+        } catch (error) {
+            console.error('Generate quote image error:', error);
+            reject(error);
+        }
     });
 }
 
-// Wrap text for canvas
+// Fallback: Create gradient background if image fails to load
+async function createGradientBackground(canvas, ctx, quote) {
+    return new Promise((resolve) => {
+        // Create gradient background
+        const gradient = ctx.createLinearGradient(0, 0, canvas.width, canvas.height);
+        gradient.addColorStop(0, '#8b7355');
+        gradient.addColorStop(1, '#5a4a3a');
+        ctx.fillStyle = gradient;
+        ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+        // Configure text
+        ctx.textAlign = 'center';
+        ctx.textBaseline = 'middle';
+        ctx.fillStyle = '#ffffff';
+
+        // Add text shadow for better readability
+        ctx.shadowColor = 'rgba(0, 0, 0, 0.5)';
+        ctx.shadowBlur = 8;
+        ctx.shadowOffsetX = 2;
+        ctx.shadowOffsetY = 2;
+
+        // Draw main quote
+        const maxWidth = canvas.width - 200;
+        const lineHeight = 60;
+        const x = canvas.width / 2;
+
+        // Modern interpretation (main text)
+        ctx.font = 'bold 36px sans-serif';
+        const lines = wrapText(ctx, quote.modernInterpretation, maxWidth);
+
+        let y = (canvas.height - (lines.length * lineHeight)) / 2;
+
+        lines.forEach(line => {
+            ctx.fillText(line, x, y);
+            y += lineHeight;
+        });
+
+        // Draw source (smaller text)
+        ctx.font = '20px sans-serif';
+        ctx.fillStyle = 'rgba(255, 255, 255, 0.9)';
+        ctx.fillText(`— ${quote.source}`, x, canvas.height - 100);
+
+        // Draw branding
+        ctx.font = '18px sans-serif';
+        ctx.fillStyle = 'rgba(255, 255, 255, 0.7)';
+        ctx.shadowBlur = 5;
+        ctx.fillText('마음 챙김 - 부처님 명언', x, canvas.height - 60);
+
+        resolve(canvas);
+    });
+}
+
+// Wrap text for canvas (improved for Korean text)
 function wrapText(ctx, text, maxWidth) {
-    const words = text.split(' ');
     const lines = [];
     let currentLine = '';
 
-    words.forEach(word => {
-        const testLine = currentLine + (currentLine ? ' ' : '') + word;
+    // 한글과 영어 모두 지원하기 위해 문자별로 처리
+    for (let i = 0; i < text.length; i++) {
+        const char = text[i];
+        const testLine = currentLine + char;
         const metrics = ctx.measureText(testLine);
 
-        if (metrics.width > maxWidth && currentLine) {
+        if (metrics.width > maxWidth && currentLine.length > 0) {
             lines.push(currentLine);
-            currentLine = word;
+            currentLine = char;
         } else {
             currentLine = testLine;
         }
-    });
+    }
 
     if (currentLine) {
         lines.push(currentLine);
@@ -189,17 +261,22 @@ function downloadCanvasAsImage(canvas, filename = 'buddha-quote.png') {
 // Share Quote as Image
 async function shareQuoteAsImage(quoteId) {
     const quote = quotes.find(q => q.id === quoteId);
-    if (!quote) return;
+    if (!quote) {
+        console.error('Quote not found:', quoteId);
+        return;
+    }
 
     // Show loading state
     showLoadingModal('이미지를 생성하는 중...');
 
     try {
         // Fetch background image
-        const backgroundUrl = await fetchUnsplashImage();
+        const backgroundUrl = await fetchBackgroundImage();
+        console.log('Background URL:', backgroundUrl);
 
         // Generate image
         const canvas = await generateQuoteImage(quote, backgroundUrl);
+        console.log('Canvas created:', canvas);
 
         // Hide loading
         hideLoadingModal();
@@ -209,7 +286,7 @@ async function shareQuoteAsImage(quoteId) {
     } catch (error) {
         console.error('Failed to generate image:', error);
         hideLoadingModal();
-        alert('이미지 생성에 실패했습니다. 다시 시도해주세요.');
+        alert('이미지 생성에 실패했습니다:\n' + error.message + '\n\n다시 시도해주세요.');
     }
 }
 
