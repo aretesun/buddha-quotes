@@ -37,6 +37,9 @@
                     <button class="btn-favorite" id="today-favorite" aria-label="즐겨찾기">
                         <span class="heart">🤍</span>
                     </button>
+                    <button class="btn-share" id="today-share" aria-label="이미지로 공유">
+                        📤 이미지로 저장
+                    </button>
                     <button class="btn-random" id="random-btn">다른 명언 보기</button>
                 </div>
             </div>
@@ -67,6 +70,32 @@
             <p>출처: 법구경(Dhammapada) - Bhikkhu Sujato 영문 번역 (CC0)</p>
             <p>SuttaCentral.net의 공개 데이터를 기반으로 현대적으로 재해석했습니다</p>
         </footer>
+    </div>
+
+    <!-- Loading Modal -->
+    <div id="loading-modal" class="modal">
+        <div class="modal-content loading">
+            <div class="spinner"></div>
+            <p id="loading-message">이미지를 생성하는 중...</p>
+        </div>
+    </div>
+
+    <!-- Share Modal -->
+    <div id="share-modal" class="modal">
+        <div class="modal-content share-modal">
+            <div class="modal-header">
+                <h2>명언 이미지 저장</h2>
+                <button class="modal-close" onclick="hideShareModal()">✕</button>
+            </div>
+            <div id="share-preview" class="share-preview"></div>
+            <div class="modal-actions">
+                <button id="change-bg-btn" class="btn-secondary">🔄 배경 바꾸기</button>
+                <button id="download-btn" class="btn-primary">💾 다운로드</button>
+            </div>
+            <div class="modal-footer">
+                <p class="modal-hint">배경 이미지: Unsplash</p>
+            </div>
+        </div>
     </div>
 
     <script src="app.js"></script>
